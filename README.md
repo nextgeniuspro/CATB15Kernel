@@ -1,7 +1,7 @@
 ================================================================================
 Android kernel sources for CAT B15 smartphone (4.1.2)
 --------------------------------------------------------------------------------
-![](https://github.com/yevgeniy-logachev/D16312Lib/blob/master/splash.jpg)
+![](https://github.com/yevgeniy-logachev/CATB15Kernel/blob/master/splash.jpg)
 
 ================================================================================
 Requirements
