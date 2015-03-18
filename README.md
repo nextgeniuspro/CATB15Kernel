@@ -18,8 +18,8 @@ Build kernel
 --------------------------------------------------------------------------------
 - cd CATB15KernelPath/kernel
 - export CROSS_COMPILE=NDKPath/toolchains/arm-linux-androideabi-4.6/prebuilt/linux-x86_64/bin/arm-linux-androideabi-
-- TARGET_PRODUCT=vt58 MTK_ROOT_CUSTOM=../mediatek/custom/ MTK_PATH_SOURCE=../mediatek/kernel/ MTK_PATH_PLATFORM=../mediatek/platform/процессор/kernel/ ARCH_MTK_PLATFORM=mt6577 TARGET_BUILD_VARIANT=user ./build.sh clean
-- TARGET_PRODUCT=vt58 MTK_ROOT_CUSTOM=../mediatek/custom/ MTK_PATH_SOURCE=../mediatek/kernel/ MTK_PATH_PLATFORM=../mediatek/platform/процессор/kernel/ ARCH_MTK_PLATFORM=mt6577 TARGET_BUILD_VARIANT=user ./build.sh release
+- TARGET_PRODUCT=vt58 MTK_ROOT_CUSTOM=../mediatek/custom/ MTK_PATH_SOURCE=../mediatek/kernel/ MTK_PATH_PLATFORM=../mediatek/platform/mt6577/kernel/ ARCH_MTK_PLATFORM=mt6577 TARGET_BUILD_VARIANT=user ./build.sh clean
+- TARGET_PRODUCT=vt58 MTK_ROOT_CUSTOM=../mediatek/custom/ MTK_PATH_SOURCE=../mediatek/kernel/ MTK_PATH_PLATFORM=../mediatek/platform/mt6577/kernel/ ARCH_MTK_PLATFORM=mt6577 TARGET_BUILD_VARIANT=user ./build.sh release
 
 After compilation kernel binary will be placed in CATB15KernelPath/mediatek/custom/out
 
