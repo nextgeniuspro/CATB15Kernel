@@ -1,0 +1,3 @@
+on fs
+    #For VT58 Camera Auto Foucs device
+    chmod 0777 /dev/MT9P017AF
