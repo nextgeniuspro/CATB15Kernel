@@ -1647,7 +1647,7 @@ out1:
  *
  * Return 0, if 760~1080; return 1, if 7600 ~ 10800, else err code < 0
  */
-inline int fm_get_channel_space(int freq)
+int fm_get_channel_space(int freq)
 {
     if ((freq >= 760) && (freq <= 1080)) {
         return 0;
